@@ -9,7 +9,7 @@ import Foundation
 
 class OpenWeatherRepository {
     
-    static let baseUrl = "https://api.openweathermap.org/data/2.5/forecast/daily?cnt=7&units=metric&APPID=e60064a718077349a2f3cdb075ffaad2"
+    static let baseUrl = "https://api.openweathermap.org/data/2.5/forecast/daily?cnt=7&units=metric&APPID=<REPLACEME>"
     
     
     func getData(city: String) async -> ForecastDto? {
