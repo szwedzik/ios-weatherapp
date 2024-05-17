@@ -7,18 +7,48 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F231AA912B3200550074CE05 /* Mapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F231AA902B3200550074CE05 /* Mapper.swift */; };
+		F231AA932B3200950074CE05 /* Forecast.swift in Sources */ = {isa = PBXBuildFile; fileRef = F231AA922B3200950074CE05 /* Forecast.swift */; };
+		F231AA952B3200C30074CE05 /* Mappers.swift in Sources */ = {isa = PBXBuildFile; fileRef = F231AA942B3200C30074CE05 /* Mappers.swift */; };
+		F235A3F12B1F92BC0021AF51 /* TemperatureDto.swift in Sources */ = {isa = PBXBuildFile; fileRef = F235A3EC2B1F92BC0021AF51 /* TemperatureDto.swift */; };
+		F235A3F22B1F92BC0021AF51 /* ForecastDto.swift in Sources */ = {isa = PBXBuildFile; fileRef = F235A3ED2B1F92BC0021AF51 /* ForecastDto.swift */; };
+		F235A3F32B1F92BC0021AF51 /* WeatherDto.swift in Sources */ = {isa = PBXBuildFile; fileRef = F235A3EE2B1F92BC0021AF51 /* WeatherDto.swift */; };
+		F235A3F42B1F92BC0021AF51 /* CityDto.swift in Sources */ = {isa = PBXBuildFile; fileRef = F235A3EF2B1F92BC0021AF51 /* CityDto.swift */; };
+		F235A3F52B1F92BC0021AF51 /* DayForecastDto.swift in Sources */ = {isa = PBXBuildFile; fileRef = F235A3F02B1F92BC0021AF51 /* DayForecastDto.swift */; };
+		F235A3F72B1F93B90021AF51 /* OpenWeatherRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = F235A3F62B1F93B90021AF51 /* OpenWeatherRepository.swift */; };
+		F235A3FA2B1F9DC70021AF51 /* Image+ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = F235A3F92B1F9DC70021AF51 /* Image+ext.swift */; };
+		F235A3FC2B1FA6720021AF51 /* Text+ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = F235A3FB2B1FA6720021AF51 /* Text+ext.swift */; };
+		F235A3FE2B1FA8240021AF51 /* DayForecast.swift in Sources */ = {isa = PBXBuildFile; fileRef = F235A3FD2B1FA8240021AF51 /* DayForecast.swift */; };
 		F2A7ED8F2B166A00005470CB /* PogodaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A7ED8E2B166A00005470CB /* PogodaApp.swift */; };
 		F2A7ED912B166A00005470CB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A7ED902B166A00005470CB /* ContentView.swift */; };
 		F2A7ED932B166A02005470CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2A7ED922B166A02005470CB /* Assets.xcassets */; };
 		F2A7ED962B166A02005470CB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2A7ED952B166A02005470CB /* Preview Assets.xcassets */; };
+		F2A7ED9F2B16716F005470CB /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A7ED9E2B16716F005470CB /* ViewModel.swift */; };
+		F2B816FD2B32102E00AB0E40 /* LocationProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B816FC2B32102E00AB0E40 /* LocationProvider.swift */; };
+		F2B816FF2B3216FE00AB0E40 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B816FE2B3216FE00AB0E40 /* Settings.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F231AA902B3200550074CE05 /* Mapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mapper.swift; sourceTree = "<group>"; };
+		F231AA922B3200950074CE05 /* Forecast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Forecast.swift; sourceTree = "<group>"; };
+		F231AA942B3200C30074CE05 /* Mappers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mappers.swift; sourceTree = "<group>"; };
+		F235A3EC2B1F92BC0021AF51 /* TemperatureDto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TemperatureDto.swift; sourceTree = "<group>"; };
+		F235A3ED2B1F92BC0021AF51 /* ForecastDto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForecastDto.swift; sourceTree = "<group>"; };
+		F235A3EE2B1F92BC0021AF51 /* WeatherDto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherDto.swift; sourceTree = "<group>"; };
+		F235A3EF2B1F92BC0021AF51 /* CityDto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CityDto.swift; sourceTree = "<group>"; };
+		F235A3F02B1F92BC0021AF51 /* DayForecastDto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DayForecastDto.swift; sourceTree = "<group>"; };
+		F235A3F62B1F93B90021AF51 /* OpenWeatherRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenWeatherRepository.swift; sourceTree = "<group>"; };
+		F235A3F92B1F9DC70021AF51 /* Image+ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Image+ext.swift"; sourceTree = "<group>"; };
+		F235A3FB2B1FA6720021AF51 /* Text+ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Text+ext.swift"; sourceTree = "<group>"; };
+		F235A3FD2B1FA8240021AF51 /* DayForecast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayForecast.swift; sourceTree = "<group>"; };
 		F2A7ED8B2B166A00005470CB /* Pogoda.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pogoda.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2A7ED8E2B166A00005470CB /* PogodaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PogodaApp.swift; sourceTree = "<group>"; };
 		F2A7ED902B166A00005470CB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F2A7ED922B166A02005470CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F2A7ED952B166A02005470CB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F2A7ED9E2B16716F005470CB /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		F2B816FC2B32102E00AB0E40 /* LocationProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationProvider.swift; sourceTree = "<group>"; };
+		F2B816FE2B3216FE00AB0E40 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +62,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F235A3EA2B1F92BC0021AF51 /* data */ = {
+			isa = PBXGroup;
+			children = (
+				F235A3EB2B1F92BC0021AF51 /* dto */,
+				F235A3F62B1F93B90021AF51 /* OpenWeatherRepository.swift */,
+				F235A3FD2B1FA8240021AF51 /* DayForecast.swift */,
+				F231AA902B3200550074CE05 /* Mapper.swift */,
+				F231AA922B3200950074CE05 /* Forecast.swift */,
+				F231AA942B3200C30074CE05 /* Mappers.swift */,
+				F2B816FC2B32102E00AB0E40 /* LocationProvider.swift */,
+			);
+			path = data;
+			sourceTree = "<group>";
+		};
+		F235A3EB2B1F92BC0021AF51 /* dto */ = {
+			isa = PBXGroup;
+			children = (
+				F235A3EC2B1F92BC0021AF51 /* TemperatureDto.swift */,
+				F235A3ED2B1F92BC0021AF51 /* ForecastDto.swift */,
+				F235A3EE2B1F92BC0021AF51 /* WeatherDto.swift */,
+				F235A3EF2B1F92BC0021AF51 /* CityDto.swift */,
+				F235A3F02B1F92BC0021AF51 /* DayForecastDto.swift */,
+			);
+			path = dto;
+			sourceTree = "<group>";
+		};
+		F235A3F82B1F9D9F0021AF51 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				F235A3F92B1F9DC70021AF51 /* Image+ext.swift */,
+				F235A3FB2B1FA6720021AF51 /* Text+ext.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		F2A7ED822B166A00005470CB = {
 			isa = PBXGroup;
 			children = (
@@ -51,10 +116,14 @@
 		F2A7ED8D2B166A00005470CB /* Pogoda */ = {
 			isa = PBXGroup;
 			children = (
+				F235A3F82B1F9D9F0021AF51 /* Extensions */,
+				F235A3EA2B1F92BC0021AF51 /* data */,
 				F2A7ED8E2B166A00005470CB /* PogodaApp.swift */,
 				F2A7ED902B166A00005470CB /* ContentView.swift */,
 				F2A7ED922B166A02005470CB /* Assets.xcassets */,
 				F2A7ED942B166A02005470CB /* Preview Content */,
+				F2A7ED9E2B16716F005470CB /* ViewModel.swift */,
+				F2B816FE2B3216FE00AB0E40 /* Settings.swift */,
 			);
 			path = Pogoda;
 			sourceTree = "<group>";
@@ -137,8 +206,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F235A3F42B1F92BC0021AF51 /* CityDto.swift in Sources */,
+				F235A3F22B1F92BC0021AF51 /* ForecastDto.swift in Sources */,
+				F231AA932B3200950074CE05 /* Forecast.swift in Sources */,
+				F2B816FF2B3216FE00AB0E40 /* Settings.swift in Sources */,
+				F235A3F32B1F92BC0021AF51 /* WeatherDto.swift in Sources */,
 				F2A7ED912B166A00005470CB /* ContentView.swift in Sources */,
+				F2B816FD2B32102E00AB0E40 /* LocationProvider.swift in Sources */,
+				F231AA952B3200C30074CE05 /* Mappers.swift in Sources */,
+				F2A7ED9F2B16716F005470CB /* ViewModel.swift in Sources */,
+				F235A3FC2B1FA6720021AF51 /* Text+ext.swift in Sources */,
+				F231AA912B3200550074CE05 /* Mapper.swift in Sources */,
+				F235A3FE2B1FA8240021AF51 /* DayForecast.swift in Sources */,
+				F235A3F52B1F92BC0021AF51 /* DayForecastDto.swift in Sources */,
 				F2A7ED8F2B166A00005470CB /* PogodaApp.swift in Sources */,
+				F235A3FA2B1F9DC70021AF51 /* Image+ext.swift in Sources */,
+				F235A3F12B1F92BC0021AF51 /* TemperatureDto.swift in Sources */,
+				F235A3F72B1F93B90021AF51 /* OpenWeatherRepository.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,6 +358,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Pogoda/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Do pobrania aktualnej lookalizacji dla pogody";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -302,6 +387,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Pogoda/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Do pobrania aktualnej lookalizacji dla pogody";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
